@@ -1,7 +1,7 @@
-# Kenshi Deep Index GraphQL example for Node/axios
+# Kenshi Deep Index GraphQL example for Python
 
-This is an example Node.js app querying the Kenshi Deep Index endpoint for GraphQL.
-This project uses `axios` for making GraphQL requests.
+This is an example Python app querying the Kenshi Deep Index endpoint for GraphQL.
+This project uses `requests` for making GraphQL requests.
 
 ## How to run
 
