@@ -5,7 +5,7 @@ endpoint = "https://api.kenshi.io/index/graphql"
 
 # Define your GraphQL query here
 query = """{
-    getEntries(blockchain: "binance-testnet") {
+    getEntries(blockchain: "binance-testnet", apikey: "API_KEY", owner: "API_KEY_OWNER") {
         event {
             name
         }
