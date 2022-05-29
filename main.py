@@ -17,5 +17,5 @@ query = """{
 response = requests.post(endpoint, json={"query": query})
 
 # Receive the data and print it
-data = response.json()["data"]
+data = response.json()
 print(data)
